@@ -1,0 +1,11 @@
+<?php if(isset($_SESSION['tu'])): ?>
+	<?php if(strcmp($_SESSION['tu'], "admin")==0): ?>
+		   
+	<?php elseif(strcmp($_SESSION['tu'], "user")==0):?>
+		   
+	<?php else:?>
+		  
+	<?php endif; ?>
+<?php else: ?>
+	 	 
+<?php endif; ?>	 
